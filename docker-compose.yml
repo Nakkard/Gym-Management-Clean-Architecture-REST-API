@@ -1,0 +1,6 @@
+﻿services:
+  gymmanagement.api:
+    image: gymmanagement.api
+    build:
+      context: .
+      dockerfile: GymManagement.Api/Dockerfile
